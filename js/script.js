@@ -7,5 +7,9 @@
 
 
 
-// DOCUMENT READY FUNCTION BELOW
-
+// DOCUMENT READY FUNCTION BELOWs
+$(document).ready(function(){
+    $("#shoot").click(function(){
+    $("#userChoice").text($("shoot").val());
+    });
+});
